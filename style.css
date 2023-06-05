@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: aqua;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(119, 85, 85);
+    margin-top: -1.2rem;
+}
+
+.header-logo {
+    font-family: 'roboto' sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: blue;
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+header nav ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+
+header nav ul li a {
+    font-family: 'roboto' sans-serif;
+    font-size: 16px;
+    color: rgb(26, 26, 77);
+    text-transform: uppercase;
+}
+
+.header-cases {
+    display: none;
+}
+
+.banner-wrapper {
+    width: 100%;
+    height: calc(100vh - 100px);
+    /* the background here it must be image this is the image plece postion center and no repeat backsize= cover*/
+    background-color: darkred;
+    display: table;
+}
+
+.article-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.banner-wrapper h1 {
+    font-family: 'roboto';
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(240, 248, 255);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(18, 189, 12);
+}
+
+.banner-wrapper h2 {
+    font-family: cormorant garamond;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 40px;
+    color: rgb(240, 248, 255);
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(189, 12, 41);
+}
+
+.link-wrapper div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.link-wrapper div h2 {
+    font-family: cormorant garamond;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 100px;
+    color: red;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgb(65, 12, 189);
+}
+
+footer {
+    width: calc(100%- 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: darkgreen;
+    overflow: hidden;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+
+footer ul li {
+    display: block;
+    list-style: none;
+}
+
+footer ul li a {
+    font-family: 'roboto' sans-serif;
+    font-size: 24px;
+    color: blanchedalmond;
+    line-height: 40px;
+}
+
+.footer-linkscases {
+    display: none;
+}
+
+.footer-sociallink {
+    width: 60px;
+    float: right;
+}
+
+.footer-sociallink img {
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .header-logo {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid rgb(8, 1, 1);
+        float: left;
+    }
+    header nav ul {
+        margin: 20px 0px 0px 20px;
+        float: left;
+    }
+    header nav ul li {
+        margin-top: 24px;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(4, 70, 70);
+    }
+    header nav ul li a {
+        line-height: 60px;
+    }
+    header .header-cases {
+        display: block;
+        font-family: 'roboto' sans-serif;
+        font-size: 16px;
+        color: blue;
+        text-transform: uppercase;
+        line-height: 38px;
+        border: 2px solid purple;
+        float: right;
+        margin-right: 40px;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main-ctontainer {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .banner-wrapper {
+        height: 450px;
+    }
+    .banner-wrapper h2 {
+        display: block;
+        width: 580px;
+        margin: 0 auto;
+    }
+    .link-wrapper {
+        overflow: hidden;
+    }
+    .link-wrapper div {
+        margin: 20px 10px 0;
+        height: 230px;
+        background-color: chartreuse;
+        float: left;
+    }
+    .link-wrapper div h2 {
+        line-height: 230px;
+        color: red;
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 8px rgb(65, 12, 189);
+    }
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+    .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer-linkscases {
+        display: block;
+    }
+    footer ul {
+        padding-right: 30px;
+    }
+    footer ul li p {
+        font-family: catamaran sans-serif;
+        font-weight: 900;
+        font-size: 30px;
+        color: rgb(73, 2, 2);
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+}
