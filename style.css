@@ -1,3 +1,17 @@
+/* stylelint-disable max-empty-lines */
+
+
+/* stylelint-disable rule-empty-line-before */
+
+
+/* stylelint-disable no-descending-specificity */
+
+
+/* stylelint-disable indentation */
+
+
+/* stylelint-disable no-missing-end-of-source-newline */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +20,7 @@
 }
 
 body {
-    font-family: 'Roboto', 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: aqua;
     height: auto;
 }
@@ -19,7 +33,7 @@ header {
 }
 
 .header-logo {
-    font-family: 'roboto' sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: 900;
     color: blue;
@@ -44,7 +58,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    font-family: 'roboto' sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: rgb(26, 26, 77);
     text-transform: uppercase;
@@ -57,7 +71,6 @@ header nav ul li a {
 .banner-wrapper {
     width: 100%;
     height: calc(100vh - 100px);
-    /* the background here it must be image this is the image plece postion center and no repeat backsize= cover*/
     background-color: darkred;
     display: table;
 }
@@ -68,7 +81,7 @@ header nav ul li a {
 }
 
 .banner-wrapper h1 {
-    font-family: 'roboto';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 60px;
     font-weight: 900;
     color: rgb(240, 248, 255);
@@ -77,7 +90,7 @@ header nav ul li a {
 }
 
 .banner-wrapper h2 {
-    font-family: cormorant garamond;
+    font-family: cormorant, garamond, Arial, sans-serif;
     font-size: 28px;
     font-weight: 100;
     font-style: italic;
@@ -95,7 +108,7 @@ header nav ul li a {
 }
 
 .link-wrapper div h2 {
-    font-family: cormorant garamond;
+    font-family: cormorant garamond Arial, sans-serif;
     font-size: 28px;
     font-weight: 100;
     line-height: 100px;
@@ -105,7 +118,7 @@ header nav ul li a {
 }
 
 footer {
-    width: calc(100%- 80px);
+    width: calc(100% - 80px);
     padding: 40px 40px;
     margin-top: 20px;
     background-color: darkgreen;
@@ -124,7 +137,6 @@ footer ul li {
 }
 
 footer ul li a {
-    font-family: 'roboto' sans-serif;
     font-size: 24px;
     color: blanchedalmond;
     line-height: 40px;
@@ -154,7 +166,7 @@ footer ul li a {
         float: left;
     }
     header nav ul {
-        margin: 20px 0px 0px 20px;
+        margin: 20px 0 0 20px;
         float: left;
     }
     header nav ul li {
@@ -168,7 +180,6 @@ footer ul li a {
     }
     header .header-cases {
         display: block;
-        font-family: 'roboto' sans-serif;
         font-size: 16px;
         color: blue;
         text-transform: uppercase;
@@ -226,7 +237,6 @@ footer ul li a {
         padding-right: 30px;
     }
     footer ul li p {
-        font-family: catamaran sans-serif;
         font-weight: 900;
         font-size: 30px;
         color: rgb(73, 2, 2);
